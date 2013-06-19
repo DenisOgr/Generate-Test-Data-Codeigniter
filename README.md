@@ -17,12 +17,19 @@
 	 
  
 ###Генерация:
-$this->gtd->generate('table','50',array('field1'=>'int(1,10)'));
+-----------
+
+	$this->gtd->generate('table','50',array('field1'=>'int(1,10)'));
+	
 
 ###Можно  вывести на экран, как будут выглядеть данные: 
-$this->gtd->test('table','50',array('field1'=>'int(1,10)'));
+-----------
 
+	$this->gtd->test('table','50',array('field1'=>'int(1,10)'));
+
+	
 ###Паттерны (аж 15 штук):
+-----------
  * int(min,max) - целое число от min к max
  * double(min,max) - вещественное  число от min к max
  * do_array(array(1,'test',100)) - значение из массива
@@ -39,4 +46,4 @@ $this->gtd->test('table','50',array('field1'=>'int(1,10)'));
  * img($path) - название картинки из папки $path(относительный путь)
  * table(table,field,isOne) - выбор данных из таблицы.
 
- ###№Спасибо Санечку(trigalex)  и  Жеке Книжнику(Borsch) за помощь и умные мысли :)
+ Спасибо Санечку(trigalex)  и  Жеке Книжнику(Borsch) за помощь и умные мысли :)
